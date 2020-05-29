@@ -1,7 +1,16 @@
+@font-face {
+  font-family: 'helveticaneuecyrbold';
+  src: url('helveticaneuecyr-bold-webfont.woff2') format('woff2'),
+       url('helveticaneuecyr-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 body {
   overflow: hidden;
-  color: white;
-  font: 100% 'Carter One', cursive;
+  color: white;  
+  font-family: 'helveticaneuecyrbold';
 }
 .container {
   width: 1170px;
@@ -11,11 +20,12 @@ body {
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 75px;
   margin-left: 50px;
   margin-right: 50px;
+  text-transform: uppercase;
   position: relative;
   z-index: 2;
   -webkit-transform: translateY(-50%);
@@ -40,7 +50,7 @@ body {
 }
 
 .page-1 {
-  margin-top: 100px;
+  padding-top: 100px;
 }
 
 input[type="radio"] {
@@ -62,7 +72,7 @@ input[type="radio"]:checked {
 }
 
 section {
-  transition: all 1s cubic-bezier(0.4, 0.1, 0.1, 1) 1s;
+  transition: all 1.5s ease 0.5s;
   position: absolute;
   top: 0;
   right: 0;
