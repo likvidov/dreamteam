@@ -44,8 +44,7 @@ body {
 }
 
 .nav__item:hover {
-  border-bottom: solid 1px white;
-  padding-bottom: 10px;
+  color: gray;
 }
 
 .logo {
@@ -258,6 +257,14 @@ section {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
+}
+
+.preloader {
+  z-index: 999;
+}
+
+.preloader #video-bg {
+  z-index: 999;
 }
 
 

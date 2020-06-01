@@ -1,5 +1,6 @@
-// Not a single line of Javascript !
-
-/* TODO
- * 1 - Fix z-index bug on edge/IE.
- */
+window.onload = function () {
+  var preloader = document.querySelector('.preloader');
+  this.setTimeout(() => {
+    preloader.remove();
+  }, 1500);
+}
